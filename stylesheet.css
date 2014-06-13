@@ -1,8 +1,64 @@
 html, body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+
 }
 
 #view {
+	width:640px;
+	height:calc(100%-99px);
+	top: 0;
+	bottom: 99px;
+}
+#view.page1{
+background-image: ./page01.png
+}
+#view.page2{
+background-image: ./page02.png
+}
+#view.page3{
+background-image: ./page03.png
+}
+#view.page4{
+background-image: ./page04.png
 }
 
+
 #tabbar {
+	width: 640px;
+	height: 99px;
+	font-size: 0;
+	padding: 0;
+}
+#tabbar li{
+	display: inline-block;
+	width: 160px;
+	height: 99px;
+
+}
+#tabbar li:nth-child(1){
+	background-image: url('./tab01_normal.png');
+}
+#tabbar li:nth-child(2){
+	background-image: url('./tab02_normal.png');
+}
+#tabbar li:nth-child(3){
+	background-image: url('./tab03_normal.png');
+}
+#tabbar li:nth-child(4){
+	background-image: url('./tab04_normal.png');
+}
+
+#tabbar.page1 li:nth-child(1) {
+	background-image: url('./tab01_selected.png');
+}
+#tabbar.page2 li:nth-child(2) {
+	background-image: url('./tab02_selected.png');
+}
+#tabbar.page3 li:nth-child(3) {
+	background-image: url('./tab03_selected.png');
+}
+#tabbar.page4 li:nth-child(4) {
+	background-image: url('./tab04_selected.png');
 }
