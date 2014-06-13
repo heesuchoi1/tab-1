@@ -12,16 +12,16 @@ html, body {
 	bottom: 99px;
 }
 #view.page1{
-background-image: ./page01.png
+background-image: url('./page01.png');
 }
 #view.page2{
-background-image: ./page02.png
+background-image: url('./page02.png');
 }
 #view.page3{
-background-image: ./page03.png
+background-image: url('./page03.png');
 }
 #view.page4{
-background-image: ./page04.png
+background-image: url('./page04.png');
 }
 
 
